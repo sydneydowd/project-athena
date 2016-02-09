@@ -42,15 +42,23 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+.logo {
+  position: absolute;
+  padding-top: 1em;
+  top: 1em;
+  left: 2em;
+}
+
 header {
   padding: 0 1em;
   position: relative;
+  height: 5em;
 }
 
 .toggle-btn {
   position: absolute;
   right: 1em;
-  top: 0;
+  top: 2em;
 }
 
 .navigation ul {
@@ -61,16 +69,13 @@ header {
   list-style-type: none;
 }
 
-.navigation li:first-child a {
-  border-top: 1px solid #E6E6E6;
-}
-
 .navigation li a {
   display: block;
   text-align: center;
-  padding: .5em 1em;
-  border-bottom: 1px solid #E6E6E6;
+  padding: 1em 1em;
   text-decoration: none;
+  color: #222;
+  font-size: .85em;
 }
 
 .toggle-btn,
@@ -87,7 +92,6 @@ header {
   width: 40px;
   display: inline-block;
   padding: 13px 11px;
-  border: 1px solid #E6E6E6;
 }
 
 .toggle-btn span,
@@ -140,10 +144,28 @@ header {
   }
 }
 
+footer {
+  background-color: #23223C;
+  height: 15em;
+}
+
+main {
+  height: 27em;
+}
+
 @media only screen and (min-width: 60em) {
   .toggle-btn,
   .close-btn {
     display: none;
+  }
+  .navigation ul {
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+    top: 1.5em;
+  }
+  .navigation ul li {
+    display: inline-block;
   }
 }
 
@@ -151,3 +173,5 @@ body.noscript .navigation {
   position: static;
   right: auto;
 }
+
+/*# sourceMappingURL=style.css.map */

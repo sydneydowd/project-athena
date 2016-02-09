@@ -28,15 +28,24 @@ body{
   }
 }
 
+.logo {
+  position: absolute;
+  padding-top: 1em;
+  top: 1em;
+  left: 2em;
+}
+
 header {
   padding: 0 1em;
   position: relative;
+	height: 5em;
+
 }
 
 .toggle-btn{
 	position: absolute;
 	right: 1em;
-	top: 0;
+	top: 2em;
 }
 
 .navigation{
@@ -45,22 +54,20 @@ header {
 		}
 		li{
 			list-style-type: none;
-			&:first-child a{
-			border-top: 1px solid $light-grey;
-		}
 		a{
 			display: block;
 			text-align: center;
-			padding: .5em 1em;
-			border-bottom: 1px solid $light-grey;
+			padding: 1em 1em;
 			text-decoration: none;
+            color: $dark-grey;
+            font-size: .85em;
 		}
 	}
 }
 
 .toggle-btn,
 .close-btn {
-	color: $text-color;
+	color: $dark-grey;
 	text-decoration: none;
 	height: 40px;
 	width: 40px;
@@ -69,7 +76,6 @@ header {
 		width: 40px;
 		display: inline-block;
 		padding: 13px 11px;
-		border: 1px solid $light-grey;
 	}
 	span{
 		@include element-invisible;
@@ -122,12 +128,32 @@ header {
  }
 }
 
+footer {
+  background-color: $navy;
+  height: 15em;
+}
+
+main {
+  height: 27em;
+}
+
 @media only screen and (min-width: 60em){
 	.toggle-btn,
 	.close-btn{
 		display: none;
 	}
+	.navigation ul {
+		display: inline-block;
+		position: absolute;
+		right: 1em;
+		top:1.5em;
+
+			li{
+				display: inline-block;
+			}
+		}
 }
+
 
 body.noscript .navigation {
 	position: static;
