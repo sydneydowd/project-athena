@@ -144,11 +144,6 @@ header {
   }
 }
 
-footer {
-  background-color: #23223C;
-  height: 15em;
-}
-
 main {
   height: 27em;
 }
@@ -162,7 +157,6 @@ main {
     display: inline-block;
     position: absolute;
     right: 1em;
-    top: 1.5em;
   }
   .navigation ul li {
     display: inline-block;
