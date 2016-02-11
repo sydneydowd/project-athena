@@ -91,6 +91,7 @@ header {
   width: 40px;
   display: inline-block;
   padding: 13px 11px;
+  padding-top: 3.5em;
 }
 
 .toggle-btn span,
