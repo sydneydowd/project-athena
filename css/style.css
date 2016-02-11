@@ -132,7 +132,7 @@ footer {
   display: block;
   position: absolute;
   z-index: 1;
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -144,7 +144,7 @@ footer {
   display: block;
   position: absolute;
   z-index: 1;
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -156,7 +156,7 @@ footer {
   display: block;
   position: absolute;
   z-index: 1;
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -166,7 +166,13 @@ footer {
 
 .bttn {
   display: inline-block;
-  right: 3em;
+  margin: 1.5em;
+  float: right;
+}
+
+.social-media {
+  padding-right: 3em;
+  padding-top: 2em;
 }
 
 @media only screen and (max-width: 60em) {

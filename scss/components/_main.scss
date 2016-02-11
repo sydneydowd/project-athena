@@ -131,7 +131,13 @@ footer {
 
 .bttn {
   display: inline-block;
-  right: 3em;
+  margin: 1.5em;
+  float: right;
+}
+
+.social-media {
+  padding-right: 3em;
+  padding-top: 2em;
 }
 
 @media only screen and (max-width: 60em){
