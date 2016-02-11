@@ -30,3 +30,11 @@
   background-size: cover;
   text-align: center;
 }
+
+@mixin button($bg-color){
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: $bg-color;
+}

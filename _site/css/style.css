@@ -128,6 +128,47 @@ footer {
   height: 10em;
 }
 
+.icon-twitter-icon {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: #fff;
+}
+
+.icon-twitter-icon:hover, .icon-twitter-icon:active .icon-twitter-icon:focus {
+  color: #E1C4C6;
+}
+
+.icon-instagram-icon {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: #fff;
+}
+
+.icon-instagram-icon:hover, .icon-instagram-icon:active .icon-instagram-icon:focus {
+  color: #E1C4C6;
+}
+
+.icon-facebook-icon {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  font-size: 3em;
+  color: #fff;
+}
+
+.icon-facebook-icon:hover, .icon-facebook-icon:active .icon-facebook-icon:focus {
+  color: #E1C4C6;
+}
+
+.social-media {
+  display: block;
+  right: 3em;
+}
+
 @media only screen and (max-width: 60em) {
   .site-wrapper {
     position: relative;

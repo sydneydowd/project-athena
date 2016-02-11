@@ -108,6 +108,32 @@ footer {
   height: 10em;
 }
 
+.icon-twitter-icon {
+  @include button($white);
+    &:hover, &:active &:focus {
+      color: $pink;
+    }
+}
+
+.icon-instagram-icon {
+  @include button($white);
+  &:hover, &:active &:focus {
+      color: $pink;
+    }
+}
+
+.icon-facebook-icon {
+  @include button($white);
+  &:hover, &:active &:focus {
+      color: $pink;
+    }
+}
+
+.social-media {
+  display: block;
+  right: 3em;
+}
+
 @media only screen and (max-width: 60em){
 	.site-wrapper{
 		position: relative;
