@@ -61,7 +61,7 @@ header {
 			padding: 1em 1em;
 			text-decoration: none;
             color: $white;
-            font-size: .85em;
+            font-size: 1.5em;
             &:hover, &:active &:focus {
             opacity: 0.2;
             }
@@ -150,6 +150,7 @@ header {
 		display: inline-block;
 		}
       a{
+        font-size: .85em;
         color: $dark-grey;
         &:hover, &:active &:focus {
         opacity: 0.2;

@@ -74,7 +74,7 @@ header {
   padding: 1em 1em;
   text-decoration: none;
   color: #fff;
-  font-size: .85em;
+  font-size: 1.5em;
 }
 
 .navigation li a:hover, .navigation li a:active .navigation li a:focus {
@@ -166,6 +166,7 @@ header {
     display: inline-block;
   }
   .navigation ul a {
+    font-size: .85em;
     color: #222;
   }
   .navigation ul a:hover, .navigation ul a:active .navigation ul a:focus {
