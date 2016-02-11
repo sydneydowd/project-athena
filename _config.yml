@@ -1,3 +1,2 @@
-markdown: redcarpet
-baseurl: /project-athena
-exclude: ['README.md']
+baseurl: ""
+permalink: pretty
