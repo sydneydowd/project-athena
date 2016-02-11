@@ -137,7 +137,7 @@ footer {
 }
 
 .icon-twitter-icon:hover, .icon-twitter-icon:active .icon-twitter-icon:focus {
-  color: #E1C4C6;
+  color: #00aced;
 }
 
 .icon-instagram-icon {
@@ -149,7 +149,7 @@ footer {
 }
 
 .icon-instagram-icon:hover, .icon-instagram-icon:active .icon-instagram-icon:focus {
-  color: #E1C4C6;
+  color: #ded1c1;
 }
 
 .icon-facebook-icon {
@@ -161,11 +161,11 @@ footer {
 }
 
 .icon-facebook-icon:hover, .icon-facebook-icon:active .icon-facebook-icon:focus {
-  color: #E1C4C6;
+  color: #3b5998;
 }
 
-.social-media {
-  display: block;
+.bttn {
+  display: inline-block;
   right: 3em;
 }
 

@@ -111,26 +111,26 @@ footer {
 .icon-twitter-icon {
   @include button($white);
     &:hover, &:active &:focus {
-      color: $pink;
+      color: $twitter;
     }
 }
 
 .icon-instagram-icon {
   @include button($white);
   &:hover, &:active &:focus {
-      color: $pink;
+      color: $instagram;
     }
 }
 
 .icon-facebook-icon {
   @include button($white);
   &:hover, &:active &:focus {
-      color: $pink;
+      color: $facebook;
     }
 }
 
-.social-media {
-  display: block;
+.bttn {
+  display: inline-block;
   right: 3em;
 }
 
