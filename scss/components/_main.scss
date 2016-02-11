@@ -35,10 +35,14 @@ body{
   left: 2em;
 }
 
+.impact-image {
+  @include impact-image;
+}
+
 header {
   padding: 0 1em;
   position: relative;
-  height: 5em;
+  height: 7em;
 
 }
 
@@ -98,6 +102,11 @@ header {
 
 //Page should move when the nav opens
 // This is the only time we use max-width EVER.
+
+footer {
+  background-color: $black;
+  height: 10em;
+}
 
 @media only screen and (max-width: 60em){
 	.site-wrapper{
