@@ -62,6 +62,9 @@ header {
 			text-decoration: none;
             color: $white;
             font-size: .85em;
+            &:hover, &:active &:focus {
+            opacity: 0.2;
+            }
 		}
 	}
 }
@@ -148,6 +151,9 @@ header {
 		}
       a{
         color: $dark-grey;
+        &:hover, &:active &:focus {
+        opacity: 0.2;
+        }
       }
     }
 }

@@ -77,6 +77,10 @@ header {
   font-size: .85em;
 }
 
+.navigation li a:hover, .navigation li a:active .navigation li a:focus {
+  opacity: 0.2;
+}
+
 .toggle-btn,
 .close-btn {
   color: #222;
@@ -163,6 +167,9 @@ header {
   }
   .navigation ul a {
     color: #222;
+  }
+  .navigation ul a:hover, .navigation ul a:active .navigation ul a:focus {
+    opacity: 0.2;
   }
 }
 
