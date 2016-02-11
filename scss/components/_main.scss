@@ -61,7 +61,7 @@ header {
 			padding: 1em 1em;
 			text-decoration: none;
             color: $white;
-            font-size: 1.5em;
+            font-size: 1em;
             &:hover, &:active &:focus {
             opacity: 0.2;
             }
@@ -80,7 +80,7 @@ header {
 		width: 40px;
 		display: inline-block;
 		padding: 13px 11px;
-        padding-top: 3.5em;
+        padding-top: 3.25em;
 	}
 	span{
 		@include element-invisible;

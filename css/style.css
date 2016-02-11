@@ -74,7 +74,7 @@ header {
   padding: 1em 1em;
   text-decoration: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .navigation li a:hover, .navigation li a:active .navigation li a:focus {
@@ -95,7 +95,7 @@ header {
   width: 40px;
   display: inline-block;
   padding: 13px 11px;
-  padding-top: 3.5em;
+  padding-top: 3.25em;
 }
 
 .toggle-btn span,
