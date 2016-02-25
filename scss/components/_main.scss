@@ -35,10 +35,6 @@ body{
   left: 5em;
 }
 
-.impact-image {
-  @include impact-image;
-}
-
 header {
   padding: 0 1em;
   position: relative;
@@ -93,6 +89,23 @@ header {
 	margin: 1em;
     color: $white;
 }
+
+.impact-image { 
+   position: relative; 
+   width: 100%;
+  .banner {
+    @include impact-image;
+  }
+  h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 2em; 
+   width: 100%; 
+   color: white;
+   font-size: 4em;
+  }
+}
+
 
 /**
 *sliding navigation
@@ -163,9 +176,9 @@ footer {
 .about {
   background-color: pink;
   height: 20em;
-  h2 {
+  h3 {
     margin: 0;
-    padding-top: 3em;
+    padding-top: 2.5em;
     padding-bottom: 1em;
     color:white;
     text-align: center;

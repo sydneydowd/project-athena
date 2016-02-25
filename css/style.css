@@ -49,14 +49,6 @@ body.noscript .toggle-btn {
   left: 5em;
 }
 
-.impact-image {
-  margin: 0 auto;
-  width: 100%;
-  display: block;
-  background-size: cover;
-  text-align: center;
-}
-
 header {
   padding: 0 1em;
   position: relative;
@@ -118,6 +110,28 @@ header {
 .close-btn {
   margin: 1em;
   color: #fff;
+}
+
+.impact-image {
+  position: relative;
+  width: 100%;
+}
+
+.impact-image .banner {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  text-align: center;
+}
+
+.impact-image h2 {
+  position: absolute;
+  top: 200px;
+  left: 2em;
+  width: 100%;
+  color: white;
+  font-size: 4em;
 }
 
 /**
@@ -204,9 +218,9 @@ footer {
   height: 20em;
 }
 
-.about h2 {
+.about h3 {
   margin: 0;
-  padding-top: 3em;
+  padding-top: 2.5em;
   padding-bottom: 1em;
   color: white;
   text-align: center;
