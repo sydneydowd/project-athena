@@ -32,6 +32,7 @@
 }
 
 @mixin button {
+  background:  transparent;
   border: 2px solid $white;
   border-radius: 25px;
   color: white;

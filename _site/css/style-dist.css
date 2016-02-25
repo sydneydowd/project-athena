@@ -135,6 +135,7 @@ header {
 }
 
 .impact-image .get-started {
+  background: transparent;
   border: 2px solid #fff;
   border-radius: 25px;
   color: white;
@@ -143,6 +144,14 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  position: absolute;
+  top: 500px;
+  left: 8em;
+}
+
+.impact-image .get-started:hover, .impact-image .get-started:active .impact-image .get-started:focus {
+  background-color: #fff;
+  color: #000000;
 }
 
 /**
