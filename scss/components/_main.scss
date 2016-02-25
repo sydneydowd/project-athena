@@ -149,21 +149,11 @@ footer {
     }
 }
 
-.bttn {
-  display: inline-block;
-  margin: 2em;
-  float: right;
-}
-
 .social-media {
   padding-right: 5em;
   padding-top: 5em;
-}
-
-.copyright {
-  color: white;
-  position: absolute;
-  left:3em;
+  display: inline-block;
+  float: right;
 }
 
 .nav-footer ul {
@@ -200,6 +190,51 @@ footer {
   }
   p{
     color:white;
+    text-align: center;
+    max-width: 50em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+}
+
+.fundraisers {
+  padding: 2em;
+  h3 {
+    margin: 0;
+    padding: 2em 2em 1em 2em;
+    color:$blue;
+    text-align: center;
+    font-size: 2em;
+  }
+  p{
+    color:$blue;
+    text-align: center;
+    max-width: 50em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  .learn-more {
+    @include button;
+    border: 2px solid $blue;
+    color: $blue;
+     &:hover, &:active &:focus {
+     background-color: $blue;
+     color: $white;
+  }
+ }
+}
+
+.events {
+  padding: 2em;
+  h3 {
+    margin: 0;
+    padding: 2em 2em 1em 2em;
+    color:$navy;
+    text-align: center;
+    font-size: 2em;
+  }
+  p{
+    color:$navy;
     text-align: center;
     max-width: 50em;
     margin: 0 auto;
@@ -266,6 +301,20 @@ footer {
         }
       }
     }
+}
+
+.nav-footer ul {
+  text-align: center;
+}
+
+.bttn {
+  display: inline-block;
+  margin: 2em;
+}
+
+.social-media {
+  display: inline-block;
+  float: center;
 }
 
 

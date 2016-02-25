@@ -198,21 +198,11 @@ footer {
   color: #3b5998;
 }
 
-.bttn {
-  display: inline-block;
-  margin: 2em;
-  float: right;
-}
-
 .social-media {
   padding-right: 5em;
   padding-top: 5em;
-}
-
-.copyright {
-  color: white;
-  position: absolute;
-  left: 3em;
+  display: inline-block;
+  float: right;
 }
 
 .nav-footer ul {
@@ -254,6 +244,65 @@ footer {
 
 .about p {
   color: white;
+  text-align: center;
+  max-width: 50em;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.fundraisers {
+  padding: 2em;
+}
+
+.fundraisers h3 {
+  margin: 0;
+  padding: 2em 2em 1em 2em;
+  color: #0DC6DC;
+  text-align: center;
+  font-size: 2em;
+}
+
+.fundraisers p {
+  color: #0DC6DC;
+  text-align: center;
+  max-width: 50em;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.fundraisers .learn-more {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #0DC6DC;
+  color: #0DC6DC;
+}
+
+.fundraisers .learn-more:hover, .fundraisers .learn-more:active .fundraisers .learn-more:focus {
+  background-color: #0DC6DC;
+  color: #fff;
+}
+
+.events {
+  padding: 2em;
+}
+
+.events h3 {
+  margin: 0;
+  padding: 2em 2em 1em 2em;
+  color: #23223C;
+  text-align: center;
+  font-size: 2em;
+}
+
+.events p {
+  color: #23223C;
   text-align: center;
   max-width: 50em;
   margin: 0 auto;
@@ -317,6 +366,20 @@ footer {
   .navigation ul a:hover, .navigation ul a:active .navigation ul a:focus {
     opacity: 0.2;
   }
+}
+
+.nav-footer ul {
+  text-align: center;
+}
+
+.bttn {
+  display: inline-block;
+  margin: 2em;
+}
+
+.social-media {
+  display: inline-block;
+  float: center;
 }
 
 body.noscript .navigation {
