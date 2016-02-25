@@ -98,7 +98,7 @@ header {
   }
   h2 { 
    position: absolute; 
-   top: 200px; 
+   top: 150px; 
    left: 2em; 
    width: 100%; 
    color: white;
@@ -107,11 +107,11 @@ header {
   .get-started {
    @include button;
     position: absolute;
-    top: 500px; 
-   left: 8em; 
+    top: 420px; 
+    left: 8em; 
      &:hover, &:active &:focus {
-      background-color: $white;
-       color: $black;
+     background-color: $white;
+     color: $black;
      }
   }
 }
@@ -125,7 +125,7 @@ header {
 
 footer {
   background-color: $navy;
-  height: 15em;
+  height: 12em;
 }
 
 .icon-twitter-icon {
@@ -160,6 +160,12 @@ footer {
   padding-top: 5em;
 }
 
+.copyright {
+  color: white;
+  position: absolute;
+  left:3em;
+}
+
 .nav-footer ul {
 		display: inline-block;
 		position: absolute;
@@ -187,10 +193,10 @@ footer {
   height: 20em;
   h3 {
     margin: 0;
-    padding-top: 2.5em;
-    padding-bottom: 1em;
+    padding: 2em 2em 1em 2em;
     color:white;
     text-align: center;
+    font-size: 2em;
   }
   p{
     color:white;

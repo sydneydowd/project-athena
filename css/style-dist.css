@@ -127,7 +127,7 @@ header {
 
 .impact-image h2 {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 2em;
   width: 100%;
   color: white;
@@ -145,7 +145,7 @@ header {
   display: inline-block;
   font-size: 16px;
   position: absolute;
-  top: 500px;
+  top: 420px;
   left: 8em;
 }
 
@@ -159,7 +159,7 @@ header {
 */
 footer {
   background-color: #23223C;
-  height: 15em;
+  height: 12em;
 }
 
 .icon-twitter-icon {
@@ -209,6 +209,12 @@ footer {
   padding-top: 5em;
 }
 
+.copyright {
+  color: white;
+  position: absolute;
+  left: 3em;
+}
+
 .nav-footer ul {
   display: inline-block;
   position: absolute;
@@ -240,10 +246,10 @@ footer {
 
 .about h3 {
   margin: 0;
-  padding-top: 2.5em;
-  padding-bottom: 1em;
+  padding: 2em 2em 1em 2em;
   color: white;
   text-align: center;
+  font-size: 2em;
 }
 
 .about p {
