@@ -32,7 +32,7 @@ body{
   position: absolute;
   padding-top: 1em;
   top: 1em;
-  left: 2em;
+  left: 5em;
 }
 
 .impact-image {
@@ -153,12 +153,13 @@ footer {
 			padding: 1em 1em;
 			text-decoration: none;
             color: $white;
-            font-size: 1em;
+            font-size: .85em;
             &:hover, &:active &:focus {
             opacity: 0.2;
         }
       }
     }
+
 
 @media only screen and (max-width: 60em){
 	.site-wrapper{
