@@ -94,7 +94,7 @@ header {
    position: relative; 
    width: 100%;
   .banner {
-    @include impact-image;
+  @include impact-image;
   }
   h2 { 
    position: absolute; 
@@ -103,6 +103,9 @@ header {
    width: 100%; 
    color: white;
    font-size: 4em;
+  }
+  .get-started {
+   @include button;
   }
 }
 
@@ -119,21 +122,21 @@ footer {
 }
 
 .icon-twitter-icon {
-  @include button($white);
+  @include social($white);
     &:hover, &:active &:focus {
       color: $twitter;
     }
 }
 
 .icon-instagram-icon {
-  @include button($white);
+  @include social($white);
   &:hover, &:active &:focus {
       color: $instagram;
     }
 }
 
 .icon-facebook-icon {
-  @include button($white);
+  @include social($white);
   &:hover, &:active &:focus {
       color: $facebook;
     }
