@@ -124,7 +124,7 @@ header {
 *sliding navigation
 */
 footer {
-  background-color: #000000;
+  background-color: #23223C;
   height: 15em;
 }
 
@@ -230,7 +230,7 @@ footer {
     top: 0;
     bottom: 0;
     min-height: 800px;
-    background-color: #000000;
+    background-color: #23223C;
   }
 }
 
