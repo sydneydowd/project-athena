@@ -32,7 +32,7 @@ body{
   position: absolute;
   padding-top: 1em;
   top: 1em;
-  left: 5em;
+  left: 3em;
 }
 
 header {
@@ -91,24 +91,20 @@ header {
 }
 
 .impact-image { 
-   position: relative; 
-   width: 100%;
-  .banner {
-  @include impact-image;
-  }
-  h2 { 
-   position: absolute; 
-   top: 150px; 
-   left: 2em; 
-   width: 100%; 
-   color: white;
-   font-size: 4em;
+  background-image: url(images/impact-image.jpg);
+  background-size: cover;
+  height: 700px;
+  h2 {
+    padding-top: 2em;
+    padding-left: 2em;
+    position: relative; 
+    color: white;
+    font-size: 4em;
   }
   .get-started {
    @include button;
-    position: absolute;
-    top: 420px; 
-    left: 8em; 
+    margin-left: 8em;
+    position: relative;
      &:hover, &:active &:focus {
      background-color: $white;
      color: $navy;
@@ -181,7 +177,7 @@ footer {
 
 .about {
   background-color: pink;
-  height: 20em;
+  padding-bottom: 2em;
   h3 {
     margin: 0;
     padding: 2em 2em 1em 2em;
