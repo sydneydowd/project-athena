@@ -23,14 +23,6 @@
   overflow: auto;
 }
 
-@mixin impact-image {
-  margin: 0 auto;
-  width: 100%;
-  display: block;
-  background-size: cover;
-  text-align: center;
-}
-
 @mixin button {
   background:  transparent;
   border: 2px solid $white;
