@@ -115,7 +115,8 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  height: 700px;
+  height: auto;
+  width: 100%;
 }
 
 .impact-image h2 {
