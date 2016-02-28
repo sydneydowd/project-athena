@@ -93,19 +93,14 @@ header {
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  height: auto;
   width: 100%;
-  h2 {
-    padding-top: 2em;
-    padding-left: 2em;
-    position: relative; 
+  height: 600px;
+  h2 { 
     color: white;
     font-size: 4em;
   }
   .get-started {
    @include button;
-    margin-left: 8em;
-    position: relative;
      &:hover, &:active &:focus {
      background-color: $white;
      color: $navy;
@@ -215,7 +210,7 @@ footer {
     @include button;
     border: 2px solid $blue;
     text-align: center;
-    color: $blue; 
+    color: $blue;
     &:hover, &:active &:focus {
     background-color: $blue;
     color: $white;
