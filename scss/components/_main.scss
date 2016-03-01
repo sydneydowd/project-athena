@@ -27,6 +27,10 @@ body{
   }
 }
 
+/**
+*START OF HOMEPAGE
+*/
+
 .logo {
   position: absolute;
   padding-top: 1em;
@@ -346,6 +350,15 @@ ul{
   
 }
 
+/**
+*END OF HOMEPAGE
+*/
+
+
+/**
+*START OF BLOG PAGE
+*/
+
 .tile{
   margin: 0 0 20px 0;
   float: left;
@@ -399,7 +412,7 @@ ul{
     color: $white;
   }
   &__description{
-    font-size: 12px;
+    font-size: 16px;
     overflow-y: auto;
     color: $white;
   }
@@ -420,6 +433,9 @@ ul{
     &:hover{
 background: $pink;
     }
-  }
-  
+  }  
 }
+
+/**
+*END OF BLOG PAGE
+*/
