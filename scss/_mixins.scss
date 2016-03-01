@@ -42,3 +42,9 @@
   font-size: 2em;
   color: $bg-color;
 }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
