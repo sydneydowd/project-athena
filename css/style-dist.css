@@ -141,13 +141,6 @@ header {
   color: #23223C;
 }
 
-.login-image {
-  background-image: url(images/bg-impact-mountain.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
 /**
 *sliding navigation
 */
@@ -405,8 +398,7 @@ body.noscript .navigation {
   right: auto;
 }
 
-.wrapper {
-  max-width: 960px;
+.blog-wrapper {
   margin: 0 auto;
   padding: 15px;
 }
@@ -476,11 +468,13 @@ ul:after {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .tile__description {
   font-size: 12px;
   overflow-y: auto;
+  color: #fff;
 }
 
 .tile__button {
