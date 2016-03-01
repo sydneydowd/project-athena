@@ -5,16 +5,20 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
 }
 
-
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%
 }
 
 body{
@@ -245,9 +249,9 @@ footer {
     color: $navy;
     display: block;
     margin: 0 auto;
-     &:hover, &:active &:focus {
-     background-color: $navy;
-     color: $white;
+    &:hover, &:active &:focus {
+    background-color: $navy;
+    color: $white;
   }
  }
 }
@@ -428,6 +432,7 @@ ul{
     transition: all 0.15s ease-in-out;
     font-family: $oswald;
     opacity:8; 
+    display: block;
     
    
     &:hover{
@@ -439,3 +444,56 @@ background: $pink;
 /**
 *END OF BLOG PAGE
 */
+
+/**
+*START OF ABOUT PAGE
+*/
+
+
+mission-img {
+  height: 100%;
+}
+
+.our-mission {
+  padding: 5em;
+  background-color: $navy;
+  h3{
+    font-size: 24px;
+    font-family: $oswald;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $white;
+    
+}
+  p {
+    color: $white;
+  }
+}
+
+.goddess {
+  padding: 5em;
+  h3{
+    font-size: 24px;
+    font-family: $oswald;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $navy;
+  }
+  p {
+    color: $navy;
+  }
+  .apply-now {
+     @include button;
+    border: 2px solid $navy;
+    color: $navy;
+    display: block;
+    &:hover, &:active &:focus {
+    background-color: $navy;
+    color: $white
+    }
+  }
+}
+
+.donate {
+  background-color: $pink;
+}

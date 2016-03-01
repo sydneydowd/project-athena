@@ -31,6 +31,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -498,6 +502,7 @@ ul:after {
   transition: all 0.15s ease-in-out;
   font-family: "Oswald", sans-serif;
   opacity: 8;
+  display: block;
 }
 
 .tile__button:hover {
@@ -507,5 +512,68 @@ ul:after {
 /**
 *END OF BLOG PAGE
 */
+/**
+*START OF ABOUT PAGE
+*/
+mission-img {
+  height: 100%;
+}
+
+.our-mission {
+  padding: 5em;
+  background-color: #23223C;
+}
+
+.our-mission h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.our-mission p {
+  color: #fff;
+}
+
+.goddess {
+  padding: 5em;
+}
+
+.goddess h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.goddess p {
+  color: #23223C;
+}
+
+.goddess .apply-now {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #23223C;
+  color: #23223C;
+  display: block;
+}
+
+.goddess .apply-now:hover, .goddess .apply-now:active .goddess .apply-now:focus {
+  background-color: #23223C;
+  color: #fff;
+}
+
+.donate {
+  background-color: #E1C4C6;
+}
 
 /*# sourceMappingURL=style.css.map */
