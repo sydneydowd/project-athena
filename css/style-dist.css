@@ -481,7 +481,7 @@ ul:after {
 }
 
 .tile__description {
-  font-size: 12px;
+  font-size: 16px;
   overflow-y: auto;
   color: #fff;
 }
