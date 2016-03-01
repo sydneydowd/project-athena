@@ -495,5 +495,24 @@ mission-img {
 }
 
 .donate {
-  background-color: $pink;
+  background-color: $blue;
+  padding: 2em;
+  p{
+    color: white;
+    max-width: 60em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  .donate {
+    @include button;
+    border: 2px solid $white;
+    color: $white;
+    display: block;
+    margin: 0 auto;
+    &:hover, &:active &:focus {
+    background-color: $white;;
+    color: $blue;
+    }
+  }
 }

@@ -573,7 +573,37 @@ mission-img {
 }
 
 .donate {
-  background-color: #E1C4C6;
+  background-color: #0DC6DC;
+  padding: 2em;
+}
+
+.donate p {
+  color: white;
+  max-width: 60em;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.donate .donate {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.donate .donate:hover, .donate .donate:active .donate .donate:focus {
+  background-color: #fff;
+  color: #0DC6DC;
 }
 
 /*# sourceMappingURL=style.css.map */
