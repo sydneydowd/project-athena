@@ -216,6 +216,8 @@ footer {
     @include button;
     border: 2px solid $blue;
     text-align: center;
+    display: block;
+    margin: 0 auto;
     color: $blue;
     &:hover, &:active &:focus {
     background-color: $blue;
@@ -244,6 +246,8 @@ footer {
     @include button;
     border: 2px solid $navy;
     color: $navy;
+    display: block;
+    margin: 0 auto;
      &:hover, &:active &:focus {
      background-color: $navy;
      color: $white;

@@ -276,6 +276,8 @@ footer {
   font-size: 16px;
   border: 2px solid #0DC6DC;
   text-align: center;
+  display: block;
+  margin: 0 auto;
   color: #0DC6DC;
 }
 
@@ -316,6 +318,8 @@ footer {
   font-size: 16px;
   border: 2px solid #23223C;
   color: #23223C;
+  display: block;
+  margin: 0 auto;
 }
 
 .events .see-packages:hover, .events .see-packages:active .events .see-packages:focus {
