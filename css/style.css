@@ -42,6 +42,9 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+/**
+*START OF HOMEPAGE
+*/
 .logo {
   position: absolute;
   padding-top: 1em;
@@ -415,6 +418,12 @@ ul:after {
   clear: both;
 }
 
+/**
+*END OF HOMEPAGE
+*/
+/**
+*START OF BLOG PAGE
+*/
 .tile {
   margin: 0 0 20px 0;
   float: left;
@@ -472,7 +481,7 @@ ul:after {
 }
 
 .tile__description {
-  font-size: 12px;
+  font-size: 16px;
   overflow-y: auto;
   color: #fff;
 }
@@ -494,5 +503,9 @@ ul:after {
 .tile__button:hover {
   background: #E1C4C6;
 }
+
+/**
+*END OF BLOG PAGE
+*/
 
 /*# sourceMappingURL=style.css.map */
