@@ -224,7 +224,7 @@ footer {
 }
 
 .about {
-  background-color: pink;
+  background-color: #0DC6DC;
   padding-bottom: 2em;
 }
 
@@ -604,6 +604,57 @@ mission-img {
 .donate .donate:hover, .donate .donate:active .donate .donate:focus {
   background-color: #fff;
   color: #0DC6DC;
+}
+
+/**
+*END OF ABOUT PAGE
+*/
+/**
+*START OF MALIAH PAGE
+*/
+.maliah-image {
+  background-image: url(images/mother-and-child.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.meet-maliah {
+  max-width: 60em;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.meet-maliah h3 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.meet-maliah p {
+  padding-bottom: 2em;
+}
+
+.meet-maliah .donate {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #23223C;
+  color: #23223C;
+  display: block;
+}
+
+.meet-maliah .donate:hover, .meet-maliah .donate:active .meet-maliah .donate:focus {
+  background-color: #23223C;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
