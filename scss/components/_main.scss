@@ -180,7 +180,7 @@ footer {
     }
 
 .about {
-  background-color: $blue;
+  background-color: $pink;
   padding-bottom: 2em;
   h3 {
     margin: 0;
@@ -425,6 +425,8 @@ ul{
     position: absolute;
     bottom: 0;
     right: 0;
+    left: 0;
+    text-align: center;
     background: $blue;
     color: #ffffff;
     text-decoration: none;
