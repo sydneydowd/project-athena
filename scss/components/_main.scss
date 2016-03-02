@@ -18,7 +18,8 @@ html {
 }
 
 img {
-  width: 100%
+  width: 100%;
+  display: block;
 }
 
 body{
@@ -198,13 +199,13 @@ footer {
 }
 
 .fundraisers {
-  padding: 2em;
+  padding: 4em;
   h3 {
     margin: 0;
-    padding: 2em 2em 1em 2em;
     color:$blue;
     text-align: center;
     font-size: 2em;
+    padding-bottom: 1em;
   }
   p{
     color:$blue;
@@ -228,13 +229,13 @@ footer {
 }
 
 .events {
-  padding: 2em;
+  padding: 4em;
   h3 {
     margin: 0;
-    padding: 2em 2em 1em 2em;
     color:$navy;
     text-align: center;
     font-size: 2em;
+    padding-bottom: 1em;
   }
   p{
     color:$navy;
@@ -524,13 +525,6 @@ mission-img {
 /**
 *START OF MALIAH PAGE
 */
-
-.maliah-image { 
-  background-image: url(images/mother-and-child.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 600px;
-}
 
 .meet-maliah {
   max-width: 60em;
