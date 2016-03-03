@@ -692,19 +692,17 @@ mission-img {
 *START OF THANKYOU PAGE
 */
 .thankyou h1 {
-  color: #0DC6DC;
+  color: #fff;
   display: block;
   font-size: 3em;
   text-align: center;
-  padding-top: 225px;
   font-family: "Oswald", sans-serif;
 }
 
 .thankyou h2 {
-  color: #0DC6DC;
+  color: #fff;
   font-size: 1em;
   text-align: center;
-  padding-top: 225px;
   font-family: "Open Sans", sans-serif;
 }
 

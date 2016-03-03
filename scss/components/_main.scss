@@ -594,20 +594,18 @@ mission-img {
 
 .thankyou{
     h1 {
-    color: $blue;
-    display: block;
-    font-size: 3em;
-    text-align:center;
-    padding-top: 225px;
-    font-family: $oswald;
+        color: $white;
+        display: block;
+        font-size: 3em;
+        text-align:center;
+        font-family: $oswald;
     }
 
     h2 {
-    color: $blue;
-    font-size: 1em;
-    text-align:center;
-    padding-top: 225px;
-    font-family: $open-sans;
+        color: $white;
+        font-size: 1em;
+        text-align:center;
+        font-family: $open-sans;
     }
     
     .thanks-img {
