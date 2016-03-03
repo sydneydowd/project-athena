@@ -101,8 +101,6 @@ header {
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  width: 100%;
-  height: 600px;
   h2 { 
     color: white;
     font-size: 4em;
@@ -112,7 +110,6 @@ header {
      &:hover, &:active &:focus {
      background-color: $white;
      color: $navy;
-    
      }
   }
 }

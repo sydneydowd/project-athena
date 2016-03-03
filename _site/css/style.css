@@ -123,8 +123,6 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  width: 100%;
-  height: 600px;
 }
 
 .impact-image h2 {
