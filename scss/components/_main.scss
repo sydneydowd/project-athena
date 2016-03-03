@@ -584,3 +584,34 @@ mission-img {
     color: $navy;
     }
 }
+
+/**
+*START OF THANKYOU PAGE
+*/
+
+.thankyou{
+    h1 {
+        color: $white;
+        display: block;
+        font-size: 3em;
+        text-align:center;
+        font-family: $oswald;
+    }
+
+    h2 {
+        color: $white;
+        font-size: 1em;
+        text-align:center;
+        font-family: $open-sans;
+    }
+    
+    .thanks-img {
+        background-image: url(images/impact-image.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+}
+
+/**
+*END OF THANKYOU PAGE
+*/
