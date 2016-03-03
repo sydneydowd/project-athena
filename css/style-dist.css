@@ -668,4 +668,54 @@ mission-img {
   color: #23223C;
 }
 
+.adventures p {
+  color: #23223C;
+}
+
+.current-adventures h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.current-adventures p {
+  color: #23223C;
+}
+
+.current-adventures ul {
+  color: #23223C;
+}
+
+/**
+*START OF THANKYOU PAGE
+*/
+.thankyou h1 {
+  color: #0DC6DC;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 225px;
+  font-family: "Oswald", sans-serif;
+}
+
+.thankyou h2 {
+  color: #0DC6DC;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 225px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.thankyou .thanks-img {
+  background-image: url(images/impact-image.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+/**
+*END OF THANKYOU PAGE
+*/
+
 /*# sourceMappingURL=style.css.map */
