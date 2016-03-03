@@ -668,4 +668,24 @@ mission-img {
   color: #23223C;
 }
 
+.adventures p {
+  color: #23223C;
+}
+
+.current-adventures h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.current-adventures p {
+  color: #23223C;
+}
+
+.current-adventures ul {
+  color: #23223C;
+}
+
 /*# sourceMappingURL=style.css.map */
