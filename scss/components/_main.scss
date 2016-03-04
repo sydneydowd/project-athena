@@ -110,7 +110,11 @@ header {
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
+<<<<<<< HEAD
+  padding: 5em 0;
+=======
   padding: 8.5em 0;
+>>>>>>> gh-pages
   .max-width{
     padding: 0 1em;
     @media only screen and (min-width: 60em){
@@ -652,10 +656,53 @@ background: $pink;
 }
 
 .join-athena {
-    text-align: center;
+    text-align: left;
+    padding-left: 3em;
     font-size: 20px;
     font-family: $oswald;
 }
+
+.apply-athena {
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    
+    h4 {
+       font-family: $oswald;
+       text-transform: uppercase;
+    }
+    p {
+        font-family: $open-sans;
+    }
+}
+
+.apply-goddess {
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    
+    h4 {
+       font-family: $oswald;
+       text-transform: uppercase;
+    }
+    p {
+        font-family: $open-sans;
+    }
+}
+
+.involvedbtn {
+    @include button;
+    border: 2px solid $navy;
+    text-align: center;
+    color: $navy;
+    &:hover, &:active, &:focus {
+        background-color: $navy;
+        color: white;
+    }
+}
+
 /**
 *START OF THANKYOU PAGE
 */

@@ -131,7 +131,11 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
+<<<<<<< HEAD
+  padding: 5em 0;
+=======
   padding: 8.5em 0;
+>>>>>>> gh-pages
 }
 
 .impact-image .max-width {
@@ -764,9 +768,62 @@ ul:after {
 }
 
 .join-athena {
-  text-align: center;
+  text-align: left;
+  padding-left: 3em;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+}
+
+.apply-athena {
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+}
+
+.apply-athena h4 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.apply-athena p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.apply-goddess {
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+}
+
+.apply-goddess h4 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.apply-goddess p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.involvedbtn {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #23223C;
+  text-align: center;
+  color: #23223C;
+}
+
+.involvedbtn:hover, .involvedbtn:active, .involvedbtn:focus {
+  background-color: #23223C;
+  color: white;
 }
 
 /**
