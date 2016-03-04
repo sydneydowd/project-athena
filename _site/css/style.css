@@ -123,8 +123,6 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  width: 100%;
-  height: 600px;
 }
 
 .impact-image h2 {
@@ -667,5 +665,53 @@ mission-img {
   text-transform: uppercase;
   color: #23223C;
 }
+
+.adventures p {
+  color: #23223C;
+}
+
+.current-adventures h3 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.current-adventures p {
+  color: #23223C;
+}
+
+.current-adventures ul {
+  color: #23223C;
+}
+
+/**
+*START OF THANKYOU PAGE
+*/
+.thankyou h1 {
+  color: #fff;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.thankyou h2 {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.thankyou .thanks-img {
+  background-image: url(images/impact-image.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+/**
+*END OF THANKYOU PAGE
+*/
 
 /*# sourceMappingURL=style.css.map */
