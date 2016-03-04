@@ -556,7 +556,9 @@ mission-img {
 */
 
 .adventures {
-  padding: 5em;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
   h3{
     font-size: 24px;
     font-family: $oswald;
@@ -570,6 +572,10 @@ mission-img {
 }
 
 .current-adventures {
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
     h3{
     font-size: 24px;
     font-family: $oswald;
@@ -585,6 +591,11 @@ mission-img {
     }
 }
 
+.join-athena {
+    text-align: center;
+    font-size: 20px;
+    font-family: $oswald;
+}
 /**
 *START OF THANKYOU PAGE
 */
