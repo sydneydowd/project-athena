@@ -726,6 +726,10 @@ ul:after {
 /**
 *START OF INVOLVED PAGE
 */
+.navy-block {
+  background-color: #23223C;
+}
+
 .adventures {
   padding-top: 1em;
   padding-left: 4em;
@@ -737,11 +741,11 @@ ul:after {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  color: #23223C;
+  color: #fff;
 }
 
 .adventures p {
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures {
@@ -756,22 +760,22 @@ ul:after {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures p {
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures ul {
-  color: #23223C;
+  color: #fff;
 }
 
 .join-athena {
-  text-align: left;
-  padding-left: 3em;
+  text-align: center;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  color: #23223C;
 }
 
 .apply-athena {
@@ -784,10 +788,12 @@ ul:after {
 .apply-athena h4 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #23223C;
 }
 
 .apply-athena p {
   font-family: "Open Sans", sans-serif;
+  color: #23223C;
 }
 
 .apply-goddess {
@@ -800,10 +806,12 @@ ul:after {
 .apply-goddess h4 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #23223C;
 }
 
 .apply-goddess p {
   font-family: "Open Sans", sans-serif;
+  color: #23223C;
 }
 
 .involvedbtn {
