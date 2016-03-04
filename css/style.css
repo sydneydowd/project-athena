@@ -724,6 +724,7 @@ ul:after {
 */
 .navy-block {
   background-color: #23223C;
+  padding-bottom: 2.5em;
 }
 
 .adventures {
@@ -828,6 +829,11 @@ ul:after {
 .involvedbtn:hover, .involvedbtn:active, .involvedbtn:focus {
   background-color: #23223C;
   color: white;
+  transition: all 1s ease 0s;
+}
+
+.call-action {
+  padding-bottom: 3em;
 }
 
 /**

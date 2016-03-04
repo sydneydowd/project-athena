@@ -618,6 +618,7 @@ background: $pink;
 
 .navy-block {
     background-color: $navy;
+    padding-bottom: 2.5em;
 }
 
 .adventures {
@@ -705,7 +706,12 @@ background: $pink;
     &:hover, &:active, &:focus {
         background-color: $navy;
         color: white;
+        transition: all 1s ease 0s;
     }
+}
+
+.call-action {
+    padding-bottom: 3em;
 }
 
 /**
