@@ -757,11 +757,12 @@ h1 {
 
 #form-div {
   background-color: rgba(72, 72, 72, 0.4);
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: -15px;
+  padding-bottom: -55px;
   width: 450px;
+  height: 860px;
   float: left;
   left: 50%;
   position: absolute;
@@ -838,30 +839,27 @@ textarea {
   resize: vertical;
 }
 
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-  background-color: white;
-}
-
-#button-blue {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  float: left;
-  width: 100%;
-  border: #fff solid 4px;
-  cursor: pointer;
-  background-color: #0DC6DC;
+.button-blue {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
   color: white;
-  font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+  color: #0DC6DC;
+  text-decoration: none;
+  background-color: #fff;
 }
 
-#button-blue:hover {
-  background-color: transparent;
-  color: #0DC6DC;
+.button-blue:hover, .button-blue:active .button-blue:focus {
+  background-color: #0DC6DC;
+  color: #fff;
 }
 
 .submit:hover {
@@ -873,11 +871,6 @@ input:focus, textarea:focus {
   height: 74px;
   background-color: #fff;
   transition: .3s ease;
-}
-
-.submit:hover .ease {
-  width: 100%;
-  background-color: white;
 }
 
 @media only screen and (max-width: 580px) {
