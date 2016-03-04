@@ -51,10 +51,12 @@ body.noscript .toggle-btn {
 *START OF HOMEPAGE
 */
 .logo {
-  position: absolute;
+  position: relative;
+  height: 100px;
   padding-top: 1em;
   top: 1em;
-  left: 3em;
+  width: 100px;
+  display: inline-block;
 }
 
 header {
@@ -120,14 +122,32 @@ header {
   color: #fff;
 }
 
+.max-width {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
+  padding: 5em 0;
+}
+
+.impact-image .max-width {
+  padding: 0 1em;
+}
+
+@media only screen and (min-width: 60em) {
+  .impact-image .max-width {
+    padding: 0;
+  }
 }
 
 .impact-image h2 {
   color: white;
   font-size: 4em;
+  font-family: "Oswald", sans-serif;
 }
 
 .impact-image .get-started {
@@ -145,6 +165,23 @@ header {
 .impact-image .get-started:hover, .impact-image .get-started:active .impact-image .get-started:focus {
   background-color: #fff;
   color: #23223C;
+}
+
+.home-impact {
+  background-image: url(images/bg-impact-mountain.jpg);
+  background-size: cover;
+}
+
+.home-impact p {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 45em;
+  font-size: 1.5em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /**
@@ -233,6 +270,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 2em;
+  font-family: "Oswald", sans-serif;
 }
 
 .about p {
@@ -253,6 +291,7 @@ footer {
   text-align: center;
   font-size: 2em;
   padding-bottom: 1em;
+  font-family: "Oswald", sans-serif;
 }
 
 .fundraisers p {
@@ -295,6 +334,7 @@ footer {
   text-align: center;
   font-size: 2em;
   padding-bottom: 1em;
+  font-family: "Oswald", sans-serif;
 }
 
 .events p {
@@ -368,10 +408,10 @@ footer {
   }
   .navigation ul {
     display: inline-block;
-    position: absolute;
-    right: 3em;
-    top: 2em;
+    position: relative;
+    top: -4.5em;
     color: #222;
+    float: right;
   }
   .navigation ul li {
     display: inline-block;
@@ -516,8 +556,9 @@ ul:after {
 /**
 *START OF ABOUT PAGE
 */
-mission-img {
-  height: 100%;
+.mission-img {
+  background: url(../images/backpack-hike.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 .our-mission {
@@ -537,6 +578,11 @@ mission-img {
   color: #fff;
 }
 
+.goddess-img {
+  background: url(../images/hiking-boots.jpg) no-repeat center center;
+  background-size: cover;
+}
+
 .goddess {
   padding: 5em;
 }
@@ -551,6 +597,7 @@ mission-img {
 
 .goddess p {
   color: #23223C;
+  padding-bottom: 2em;
 }
 
 .goddess .apply-now {

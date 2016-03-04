@@ -37,10 +37,12 @@ body{
 */
 
 .logo {
-  position: absolute;
+  position: relative;
+  height: 100px;
   padding-top: 1em;
   top: 1em;
-  left: 3em;
+  width: 100px;
+  display: inline-block;
 }
 
 header {
@@ -98,12 +100,27 @@ header {
     color: $white;
 }
 
+.max-width{
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  h2 { 
+  padding: 5em 0;
+  .max-width{
+    padding: 0 1em;
+    @media only screen and (min-width: 60em){
+      padding: 0;
+    }
+  }
+  h2 {
     color: white;
     font-size: 4em;
+    font-family: $oswald;
   }
   .get-started {
    @include button;
@@ -111,6 +128,22 @@ header {
      background-color: $white;
      color: $navy;
      }
+  }
+}
+
+.home-impact {
+  background-image: url(images/bg-impact-mountain.jpg);
+  background-size: cover;
+  p {
+    color: $white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 45em;
+    font-size: 1.5em;
+    padding-top:6em;
+    padding-bottom:6em;
+    padding-left: 2em;
+    padding-right:2em;
   }
 }
 
@@ -185,6 +218,7 @@ footer {
     color:white;
     text-align: center;
     font-size: 2em;
+    font-family: $oswald;
   }
   p{
     color:white;
@@ -203,6 +237,7 @@ footer {
     text-align: center;
     font-size: 2em;
     padding-bottom: 1em;
+    font-family: $oswald;
   }
   p{
     color:$blue;
@@ -233,6 +268,7 @@ footer {
     text-align: center;
     font-size: 2em;
     padding-bottom: 1em;
+    font-family: $oswald;
   }
   p{
     color:$navy;
@@ -295,11 +331,11 @@ footer {
 		display: none;
 	}
 	.navigation ul {
-		display: inline-block;
-		position: absolute;
-		right: 3em;
-        top:2em;
-        color: $dark-grey;
+        display: inline-block;
+        position: relative;
+        top: -4.5em;
+        color: #222;
+        float: right;
 
       li{
 		display: inline-block;
@@ -450,8 +486,9 @@ background: $pink;
 */
 
 
-mission-img {
-  height: 100%;
+.mission-img {
+    background: url(../images/backpack-hike.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .our-mission {
@@ -470,6 +507,11 @@ mission-img {
   }
 }
 
+.goddess-img {
+    background: url(../images/hiking-boots.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 .goddess {
   padding: 5em;
   h3{
@@ -481,6 +523,7 @@ mission-img {
   }
   p {
     color: $navy;
+    padding-bottom: 2em;
   }
   .apply-now {
      @include button;
