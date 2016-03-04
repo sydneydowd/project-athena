@@ -147,6 +147,23 @@ header {
   color: #23223C;
 }
 
+.home-impact {
+  background-image: url(images/bg-impact-mountain.jpg);
+  background-size: cover;
+}
+
+.home-impact p {
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 45em;
+  font-size: 1.5em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 /**
 *sliding navigation
 */
