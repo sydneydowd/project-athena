@@ -534,6 +534,9 @@ background: $pink;
     color: $navy;
     padding-bottom: 2em;
   }
+  a {
+    text-decoration: none;
+  }
   .apply-now {
      @include button;
     border: 2px solid $navy;
@@ -541,7 +544,8 @@ background: $pink;
     display: block;
     &:hover, &:active &:focus {
     background-color: $navy;
-    color: $white
+    color: $white;
+    transition: all 1s ease 0s;
     }
   }
 }
@@ -556,6 +560,9 @@ background: $pink;
     margin: 0 auto;
     padding-bottom: 2em;
   }
+   a {
+    text-decoration: none;
+  }
   .donate {
     @include button;
     border: 2px solid $white;
@@ -565,6 +572,7 @@ background: $pink;
     &:hover, &:active &:focus {
     background-color: $white;
     color: $blue;
+    transition: all 1s ease 0s;
     }
   }
 }

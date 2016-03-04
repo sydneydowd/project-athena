@@ -611,6 +611,10 @@ ul:after {
   padding-bottom: 2em;
 }
 
+.goddess a {
+  text-decoration: none;
+}
+
 .goddess .apply-now {
   background: transparent;
   border: 2px solid #fff;
@@ -629,6 +633,7 @@ ul:after {
 .goddess .apply-now:hover, .goddess .apply-now:active .goddess .apply-now:focus {
   background-color: #23223C;
   color: #fff;
+  transition: all 1s ease 0s;
 }
 
 .donate {
@@ -642,6 +647,10 @@ ul:after {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 2em;
+}
+
+.donate a {
+  text-decoration: none;
 }
 
 .donate .donate {
@@ -663,6 +672,7 @@ ul:after {
 .donate .donate:hover, .donate .donate:active .donate .donate:focus {
   background-color: #fff;
   color: #0DC6DC;
+  transition: all 1s ease 0s;
 }
 
 /**
