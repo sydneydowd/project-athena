@@ -131,7 +131,7 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  padding: 5em 0;
+  padding: 8.5em 0;
 }
 
 .impact-image .max-width {
@@ -322,6 +322,7 @@ footer {
 .fundraisers .learn-more:hover, .fundraisers .learn-more:active .fundraisers .learn-more:focus {
   background-color: #0DC6DC;
   color: #fff;
+  transition: all 1s ease 0s;
 }
 
 .events {
@@ -364,6 +365,7 @@ footer {
 .events .see-packages:hover, .events .see-packages:active .events .see-packages:focus {
   background-color: #23223C;
   color: #fff;
+  transition: all 1s ease 0s;
 }
 
 @media only screen and (max-width: 60em) {
