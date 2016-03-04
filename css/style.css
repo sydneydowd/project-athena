@@ -655,7 +655,9 @@ mission-img {
 *START OF INVOLVED PAGE
 */
 .adventures {
-  padding: 5em;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .adventures h3 {
@@ -668,6 +670,13 @@ mission-img {
 
 .adventures p {
   color: #23223C;
+}
+
+.current-adventures {
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
 }
 
 .current-adventures h3 {
@@ -684,6 +693,12 @@ mission-img {
 
 .current-adventures ul {
   color: #23223C;
+}
+
+.join-athena {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
 /**
