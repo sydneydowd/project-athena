@@ -165,6 +165,7 @@ header {
 .impact-image .get-started:hover, .impact-image .get-started:active .impact-image .get-started:focus {
   background-color: #fff;
   color: #23223C;
+  transition: all 1s ease 0s;
 }
 
 .home-impact {
@@ -294,6 +295,10 @@ footer {
   font-family: "Oswald", sans-serif;
 }
 
+.fundraisers a {
+  text-decoration: none;
+}
+
 .fundraisers p {
   color: #0DC6DC;
   text-align: center;
@@ -336,6 +341,10 @@ footer {
   font-size: 2em;
   padding-bottom: 1em;
   font-family: "Oswald", sans-serif;
+}
+
+.events a {
+  text-decoration: none;
 }
 
 .events p {
