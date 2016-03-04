@@ -131,11 +131,7 @@ header {
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-<<<<<<< HEAD
-  padding: 5em 0;
-=======
   padding: 8.5em 0;
->>>>>>> gh-pages
 }
 
 .impact-image .max-width {
@@ -726,6 +722,7 @@ ul:after {
 }
 
 .current-adventures {
+  background-color: #23223C;
   padding-top: 1em;
   padding-left: 4em;
   padding-right: 4em;
