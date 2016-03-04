@@ -110,7 +110,11 @@ header {
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
+<<<<<<< HEAD
   padding: 5em 0;
+=======
+  padding: 8.5em 0;
+>>>>>>> gh-pages
   .max-width{
     padding: 0 1em;
     @media only screen and (min-width: 60em){
@@ -256,6 +260,7 @@ footer {
     &:hover, &:active &:focus {
     background-color: $blue;
     color: $white;
+    transition: all 1s ease 0s;
   }
  }
 }
@@ -286,6 +291,7 @@ footer {
     &:hover, &:active &:focus {
     background-color: $navy;
     color: $white;
+    transition: all 1s ease 0s;
   }
  }
 }
