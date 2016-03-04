@@ -101,7 +101,7 @@ header {
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
-  h2 { 
+  h2 {
     color: white;
     font-size: 4em;
   }
@@ -497,6 +497,7 @@ mission-img {
   }
   p {
     color: $navy;
+    padding-bottom: 2em;
   }
   .apply-now {
      @include button;
