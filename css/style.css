@@ -863,5 +863,25 @@ ul:after {
 /**
 *END OF THANKYOU PAGE
 */
+/**
+*START OF CONTACT PAGE
+*/
+.mailing {
+  text-align: center;
+  color: #23223C;
+}
+
+.mailing h4 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.email {
+  padding-bottom: 2.5em;
+}
+
+/**
+*END OF CONTACT PAGE
+*/
 
 /*# sourceMappingURL=style.css.map */

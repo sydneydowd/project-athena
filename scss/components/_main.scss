@@ -744,3 +744,25 @@ background: $pink;
 /**
 *END OF THANKYOU PAGE
 */
+
+/**
+*START OF CONTACT PAGE
+*/
+
+.mailing {
+    text-align: center;
+    color: $navy;
+    
+    h4 {
+        text-transform: uppercase;
+        font-family: $oswald;
+    }
+}
+
+.email {
+    padding-bottom: 2.5em;
+}
+
+/**
+*END OF CONTACT PAGE
+*/
