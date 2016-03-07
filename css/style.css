@@ -866,6 +866,55 @@ ul:after {
 /**
 *START OF CONTACT PAGE
 */
+.contact-form {
+  background-image: url(images/mountains.jpg);
+  text-align: center;
+  line-height: 2.25em;
+  padding-top: 3em;
+}
+
+.contact-form .contactpg-form {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.contact-form input {
+  width: 32em;
+  height: 3.5em;
+  border-color: #23223C;
+}
+
+.contact-form textarea {
+  border: 2px solid #23223C;
+}
+
+.contact-form .btn-div {
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+}
+
+.submit-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #23223C;
+  text-align: center;
+  color: #23223C;
+}
+
+.submit-btn:hover, .submit-btn:active, .submit-btn:focus {
+  background-color: #23223C;
+  color: white;
+  transition: all 1s ease 0s;
+}
+
 .mailing {
   text-align: center;
   color: #23223C;
@@ -874,6 +923,7 @@ ul:after {
 .mailing h4 {
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  text-align: center;
 }
 
 .email {
