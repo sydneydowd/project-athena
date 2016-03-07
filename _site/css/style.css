@@ -887,6 +887,7 @@ ul:after {
 
 .contact-form textarea {
   border: 2px solid #23223C;
+  width: 32em;
 }
 
 .contact-form .btn-div {
