@@ -749,6 +749,44 @@ background: $pink;
 *START OF CONTACT PAGE
 */
 
+.contact-form {
+    background-image: url(images/mountains.jpg);
+    text-align: center;
+    line-height: 2.25em;
+    padding-top: 3em;
+    .contactpg-form {
+        font-family: $oswald;
+        text-transform: uppercase;
+        color: $navy;
+    }
+    input {
+        width: 32em;
+        height: 3.5em;
+        border-color: $navy;
+    }
+    
+    textarea {
+        border: 2px solid $navy;
+    }
+    
+    .btn-div{ 
+        padding-bottom: 1em;
+        padding-top: 1.5em;
+    }
+}
+
+.submit-btn {
+    @include button;
+    border: 2px solid $navy;
+    text-align: center;
+    color: $navy;
+    &:hover, &:active, &:focus {
+        background-color: $navy;
+        color: white;
+        transition: all 1s ease 0s;
+    }
+}
+
 .mailing {
     text-align: center;
     color: $navy;
@@ -756,6 +794,7 @@ background: $pink;
     h4 {
         text-transform: uppercase;
         font-family: $oswald;
+        text-align: center;
     }
 }
 
