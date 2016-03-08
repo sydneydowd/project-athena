@@ -841,7 +841,7 @@ background: $pink;
 .donate-form {
     text-align: center;
     line-height: 2.25em;
-    padding-top: 3em;
+    padding: 0;
     .donate-form {
         font-family: $oswald;
         text-transform: uppercase;
@@ -876,19 +876,13 @@ background: $pink;
     }
 }
 
-.mailing {
-    text-align: center;
+.donatenow{
+    font-size: 5em;
+    font-family: $oswald;
+    text-transform: uppercase;
     color: $navy;
-    
-    h4 {
-        text-transform: uppercase;
-        font-family: $oswald;
-        text-align: center;
-    }
-}
-
-.email {
-    padding-bottom: 2.5em;
+    text-align: center;
+    padding: 0px;
 }
 
 /**
