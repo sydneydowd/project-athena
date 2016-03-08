@@ -89,6 +89,7 @@ header {
 
 .navigation li a:hover, .navigation li a:active .navigation li a:focus {
   opacity: 0.2;
+  border-bottom: 2px solid #23223C;
 }
 
 .toggle-btn,
@@ -1028,3 +1029,5 @@ ul:after {
 /**
 *END OF DONATE PAGE
 */
+
+/*# sourceMappingURL=style.css.map */
