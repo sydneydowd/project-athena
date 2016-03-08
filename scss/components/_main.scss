@@ -72,9 +72,14 @@ header {
             font-size: 1em;
             &:hover, &:active &:focus {
             opacity: 0.2;
+            border-bottom: 2px solid $navy; 
             }
 		}
 	}
+}
+
+a:active {
+    
 }
 
 .toggle-btn,
