@@ -106,12 +106,15 @@ header {
   margin-right: auto;
 }
 
+.kerning {
+letter-spacing: 2px;
+}
+
 
 .impact-image { 
   background-image: url(images/impact-image.jpg);
   background-size: cover;
   padding: 8.5em 0;
-
   .max-width{
     padding: 0 1em;
     @media only screen and (min-width: 60em){
@@ -122,6 +125,7 @@ header {
     color: white;
     font-size: 4em;
     font-family: $oswald;
+    letter-spacing: 3px;
   }
   .get-started {
    @include button;
@@ -406,6 +410,27 @@ ul{
 /**
 *START OF BLOG PAGE
 */
+
+.blog-impact {
+  background-image: url(images/bare-foot-lake.jpg);
+  background-size: cover;
+  h2 {
+    font-family: $oswald;
+    color: $white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3em;
+    padding-top:4em;
+    padding-left: 2em;
+    padding-right:2em;
+  }
+  p{
+    color: $white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom:4em;
+  }
+}
 
 .tile{
   margin: 0 0 20px 0;
