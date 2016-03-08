@@ -751,23 +751,25 @@ background: $pink;
 .thankyou{
     h1 {
         color: $white;
-        display: block;
-        font-size: 3em;
+        font-size: 5em;
+        padding-top: 250px;
         text-align:center;
         font-family: $oswald;
     }
 
     h2 {
         color: $white;
-        font-size: 1em;
+        font-size: 1.5em;
+        padding-top: -90px;
         text-align:center;
         font-family: $open-sans;
     }
     
     .thanks-img {
-        background-image: url(images/impact-image.jpg);
+        background-image: url(images/bare-foot-lake.jpg);
         background-size: cover;
         width: 100%;
+        height: 100vh;
     }
 }
 
@@ -792,6 +794,7 @@ background: $pink;
         width: 32em;
         height: 3.5em;
         border-color: $navy;
+        font-family: $oswald;
     }
     
     textarea {
@@ -835,3 +838,59 @@ background: $pink;
 /**
 *END OF CONTACT PAGE
 */
+
+/**
+*START OF DONATE PAGE
+*/
+
+.donate-form {
+    text-align: center;
+    line-height: 2.25em;
+    padding: 0;
+    .donate-form {
+        font-family: $oswald;
+        text-transform: uppercase;
+        color: $navy;
+    }
+    input {
+        width: 32em;
+        height: 3.5em;
+        border-color: $navy;
+    }
+    
+    textarea {
+        border: 2px solid $navy;
+        width: 32em;
+    }
+    
+    .btn-div{ 
+        padding-bottom: 1em;
+        padding-top: 3.5em;
+    }
+}
+
+.submit-btn {
+    @include button;
+    border: 2px solid $navy;
+    text-align: center;
+    color: $navy;
+    &:hover, &:active, &:focus {
+        background-color: $navy;
+        color: white;
+        transition: all 1s ease 0s;
+    }
+}
+
+.donatenow{
+    font-size: 5em;
+    font-family: $oswald;
+    text-transform: uppercase;
+    color: $navy;
+    text-align: center;
+    padding: 0px;
+}
+
+/**
+*END OF DONATE PAGE
+*/
+
