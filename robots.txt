@@ -1,0 +1,4 @@
+Sitemap: http://sydneydowd.github.io/project-athena/sitemap.xml
+
+User-agent: * Googlebot, Yahoo! Slurp, Bingbot
+Disallow: /img
