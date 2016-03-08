@@ -128,6 +128,10 @@ header {
   margin-right: auto;
 }
 
+.kerning {
+  letter-spacing: 2.5px;
+}
+
 .impact-image {
   background-image: url(images/impact-image.jpg);
   background-size: cover;
