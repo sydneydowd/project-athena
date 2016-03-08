@@ -1,0 +1,33 @@
+# humans.txt.org
+
+# TEAM
+
+Designer & Developer: Sydney Dowd
+Site: https://sydneydowd.ca
+Github: https://github.com/sydneydowd
+Location: Portland, USA
+
+Designer & Developer: Brittany Norris
+Site: https://brittanynorris.ca
+Github: https://github.com/norr0065
+Location: Ottawa, Canada
+
+Designer & Developer: Chenise Paquette
+Site: https://cspdesign.com
+Github: https://github.com/chenise-paquette
+Location: Ottawa, Canada
+
+Designer & Developer: Erin Graham
+Site: https://erin-graham.ca
+Github: https://github.com/eringraham
+Location: Ottawa, Canada
+---
+
+# TECHNOLOGY
+
+## Software
+
+-Brackets
+-Git + GitHub
+-Prepos
+-Markdown
