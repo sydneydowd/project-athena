@@ -121,6 +121,7 @@ header {
     color: white;
     font-size: 4em;
     font-family: $oswald;
+    letter-spacing: 3px;
   }
   .get-started {
    @include button;
@@ -405,6 +406,22 @@ ul{
 /**
 *START OF BLOG PAGE
 */
+
+.blog-impact {
+  background-image: url(images/bare-foot-lake.jpg);
+  background-size: cover;
+  h2 {
+    font-family: $oswald;
+    color: $white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3em;
+    padding-top:4em;
+    padding-bottom:4em;
+    padding-left: 2em;
+    padding-right:2em;
+  }
+}
 
 .tile{
   margin: 0 0 20px 0;
