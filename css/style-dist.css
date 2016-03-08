@@ -970,7 +970,7 @@ ul:after {
 .donate-form {
   text-align: center;
   line-height: 2.25em;
-  padding-top: 3em;
+  padding: 0;
 }
 
 .donate-form .donate-form {
@@ -1016,19 +1016,13 @@ ul:after {
   transition: all 1s ease 0s;
 }
 
-.mailing {
-  text-align: center;
-  color: #23223C;
-}
-
-.mailing h4 {
-  text-transform: uppercase;
+.donatenow {
+  font-size: 5em;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #23223C;
   text-align: center;
-}
-
-.email {
-  padding-bottom: 2.5em;
+  padding: 0px;
 }
 
 /**
