@@ -740,6 +740,11 @@ ul:after {
 /**
 *START OF INVOLVED PAGE
 */
+.navy-block {
+  background-color: #23223C;
+  padding-bottom: 2.5em;
+}
+
 .adventures {
   padding-top: 1em;
   padding-left: 4em;
@@ -751,11 +756,11 @@ ul:after {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  color: #23223C;
+  color: #fff;
 }
 
 .adventures p {
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures {
@@ -770,22 +775,22 @@ ul:after {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures p {
-  color: #23223C;
+  color: #fff;
 }
 
 .current-adventures ul {
-  color: #23223C;
+  color: #fff;
 }
 
 .join-athena {
-  text-align: left;
-  padding-left: 3em;
+  text-align: center;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
+  color: #23223C;
 }
 
 .apply-athena {
@@ -798,10 +803,12 @@ ul:after {
 .apply-athena h4 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #23223C;
 }
 
 .apply-athena p {
   font-family: "Open Sans", sans-serif;
+  color: #23223C;
 }
 
 .apply-goddess {
@@ -814,10 +821,12 @@ ul:after {
 .apply-goddess h4 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #23223C;
 }
 
 .apply-goddess p {
   font-family: "Open Sans", sans-serif;
+  color: #23223C;
 }
 
 .involvedbtn {
@@ -838,6 +847,11 @@ ul:after {
 .involvedbtn:hover, .involvedbtn:active, .involvedbtn:focus {
   background-color: #23223C;
   color: white;
+  transition: all 1s ease 0s;
+}
+
+.call-action {
+  padding-bottom: 3em;
 }
 
 /**
@@ -866,6 +880,77 @@ ul:after {
 
 /**
 *END OF THANKYOU PAGE
+*/
+/**
+*START OF CONTACT PAGE
+*/
+.contact-form {
+  background-image: url(images/mountains.jpg);
+  text-align: center;
+  line-height: 2.25em;
+  padding-top: 3em;
+}
+
+.contact-form .contactpg-form {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #23223C;
+}
+
+.contact-form input {
+  width: 32em;
+  height: 3.5em;
+  border-color: #23223C;
+}
+
+.contact-form textarea {
+  border: 2px solid #23223C;
+  width: 32em;
+}
+
+.contact-form .btn-div {
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+}
+
+.submit-btn {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid #23223C;
+  text-align: center;
+  color: #23223C;
+}
+
+.submit-btn:hover, .submit-btn:active, .submit-btn:focus {
+  background-color: #23223C;
+  color: white;
+  transition: all 1s ease 0s;
+}
+
+.mailing {
+  text-align: center;
+  color: #23223C;
+}
+
+.mailing h4 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.email {
+  padding-bottom: 2.5em;
+}
+
+/**
+*END OF CONTACT PAGE
 */
 
 /*# sourceMappingURL=style.css.map */
