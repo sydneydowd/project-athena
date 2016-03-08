@@ -266,7 +266,7 @@ footer {
 }
 
 .about {
-  background-color: #FFC0CB;
+  background-color: #735489;
   padding-bottom: 2em;
 }
 
@@ -503,7 +503,7 @@ ul:after {
   color: #fff;
   text-align: center;
   font-size: 1.5em;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
 }
 
 .tile {
@@ -895,7 +895,6 @@ ul:after {
 *START OF CONTACT PAGE
 */
 .contact-form {
-  background-image: url(images/mountains.jpg);
   text-align: center;
   line-height: 2.25em;
   padding-top: 3em;
